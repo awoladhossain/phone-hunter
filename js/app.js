@@ -155,10 +155,10 @@ const displayPhoneDetails =(phones)=>{
     <img src="${phones.image}" alt="" >
     <p>Release Date: ${phones.releaseDate ? phones.releaseDate : 'not found'}</p>
     <p>Main Features: ${phones.mainFeatures.chipSet}</p>
-    <p>Main Features: ${phones.mainFeatures.storage}</p>
-    <p>Main Features: ${phones.mainFeatures.sensors[0]}</p>
-    <p>Main Features: ${phones.mainFeatures.sensors[1]}</p>
-    <p>Main Features: ${phones.mainFeatures.sensors[2]}</p>
+    <p>Extra Features: ${phones.mainFeatures.storage}</p>
+    <p>Extra Features: ${phones.mainFeatures.sensors[0]}</p>
+    <p>Extra Features: ${phones.mainFeatures.sensors[1]}</p>
+    <p>Extra Features: ${phones.mainFeatures.sensors[2]}</p>
     `;
 }
 
